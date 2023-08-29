@@ -24,17 +24,17 @@ For this part I again used an automated browsing to visit the Mars Temperature D
 Created a Beautiful Soup object and used it to scrape the data in the HTML table. Assembled the scraped data into a Pandas DataFrame, making sure the columns had the same headings as the 
 table on the website. Here’s an explanation of the column headings:
 
-- id: the identification number of a single transmission from the Curiosity rover
+- id: The identification number of a single transmission from the Curiosity rover
   
-- terrestrial_date: the date on Earth
+- terrestrial_date: The date on Earth
 
-- sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
+- sol: The number of elapsed sols (Martian days) since Curiosity landed on Mars
 
-- ls: the solar longitude
+- ls: The solar longitude
 
-- month: the Martian month
+- month: The Martian month
 
-- min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
+- min_temp: The minimum temperature, in Celsius, of a single Martian day (sol)
 
 - pressure: The atmospheric pressure at Curiosity's location
 
